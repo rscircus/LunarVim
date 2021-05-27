@@ -10,6 +10,7 @@ an executable
 -- general
 O.auto_complete = true
 O.colorscheme = 'lunar'
+-- select from {aurora, lunar, nord, nvscode, onedark, palenight, snazzy}
 O.auto_close_tree = 0
 O.wrap_lines = false
 O.timeoutlen = 100
@@ -47,7 +48,6 @@ O.python.analysis.use_library_code_types = true
 -- lua
 -- TODO look into stylua
 O.lua.formatter = 'lua-format'
--- O.lua.formatter = 'lua-format'
 O.lua.autoformat = false
 
 -- javascript
@@ -63,7 +63,6 @@ O.ruby.autoformat = true
 
 -- go
 O.go.autoformat = true
--- create custom autocommand field (This would be easy with lua)
 
 -- Turn off relative_numbers
 -- O.relative_number = false
